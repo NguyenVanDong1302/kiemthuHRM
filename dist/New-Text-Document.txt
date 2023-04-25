@@ -1,0 +1,17 @@
+MicroTask với MacroTask cái nào có thứ tự ưu tiên hơn và vì sao
+MacroTask có thứ tự ưu tiên thấp hơn MicroTask vì
+
+trong event loop 
+
+
+- Các tác vụ của MacroTask 
+ 		xóa khỏi callstack		Kết thúc Timer
+SetTimeout ====================> WebApi =================> MacroTask
+
+- Các tác vụ của MicroTask
+		Xóa khỏi callstack
+Promise ========================> MicroTask
+
+- Khi callstack trống thì
+
+CallStack sẽ gọi ngược lại MicroTask rồi xử lý hết MicroTask thì bắt đầu thực hiện MacroTask
