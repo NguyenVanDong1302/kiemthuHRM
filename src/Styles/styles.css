@@ -1,0 +1,194 @@
+.col-contact .rs-col {
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.row-sidebar > .rs-col:nth-child(3) {
+  margin: 15px 0 !important;
+}
+.row-sidebar > .rs-col:nth-child(7) h6 {
+  font-weight: 500;
+  font-size: 14px;
+}
+.row-sidebar > .rs-col:nth-child(7) .rs-col {
+  padding-bottom: 15px;
+}
+.row-sidebar .tag-staff-type {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.col-contact .rs-col svg {
+  font-size: 20px;
+}
+
+.col-contact span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.after__bottom {
+  position: relative;
+  margin: 20px 0;
+}
+
+.after__bottom::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: #b8b8b8;
+  bottom: 0;
+  padding: 0;
+}
+
+.list-detail-staff div > .rs-row {
+  display: flex;
+}
+.list-detail-staff div > .rs-row > .rs-col {
+  display: flex;
+}
+.list-detail-staff div > .rs-row > .rs-col > span {
+  height: 35px;
+  display: flex;
+}
+.list-detail-staff div > .rs-row > .rs-col > span:nth-child(1) {
+  display: flex;
+  width: 24% !important;
+}
+.list-detail-staff div > .rs-row > .rs-col > span:nth-child(2) {
+  width: 76%;
+  color: #000;
+  font-weight: 600;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+}
+
+.list-detail-staff {
+  padding: 14px !important;
+  background-color: #ffffff;
+  margin: 10px;
+}
+
+.detail-header {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  padding-left: 0;
+}
+.detail-header span {
+  background-color: #0f9327;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+.detail-header span svg {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.rs-table-cell-header .rs-table-cell-content,
+.rs-table-cell .rs-table-cell-content {
+  padding: 0 13px !important;
+}
+
+.rs-col-xs-24 .rs-uploader-trigger-btn > .avatar-staff .rs-avatar-image {
+  height: auto !important;
+  width: 100% !important;
+}
+
+.rs-uploader-file-items {
+  display: none !important;
+}
+
+.ctBygj .rs-form-control-label {
+  min-width: 160px !important;
+}
+
+.rs-picker-check-menu-items {
+  width: unset !important;
+}
+
+.rs-uploader-trigger-btn {
+  cursor: pointer;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.rs-uploader-trigger-btn::before {
+  content: "";
+  background-color: rgba(138, 138, 138, 0.5);
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  z-index: 9;
+  border-radius: 50%;
+  left: 0;
+}
+.rs-uploader-trigger-btn span {
+  position: absolute;
+  z-index: 99;
+  color: #ffffff;
+}
+
+.rs-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 45px;
+  box-shadow: rgba(0, 0, 0, 0.2392156863) 0 1px 4px;
+  margin-bottom: 10px;
+}
+.rs-header .rs-breadcrumb {
+  margin: 0 !important;
+}
+
+.detail-staff__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.detail-staff__header button {
+  background-color: #18a019;
+  color: #ffffff;
+}
+
+.rs-uploader-trigger-btn::before {
+  display: none;
+}
+
+.button__uploadFile {
+  align-items: center;
+}
+.button__uploadFile span {
+  margin: 0 10px;
+}
+.button__uploadFile svg {
+  font-size: 25px !important;
+  color: #000 !important;
+}
+
+.list-file__item {
+  display: flex;
+  align-items: center;
+}
+.list-file__item .list-file__item-image {
+  margin-right: 10px;
+}
+.list-file__item h4 {
+  font-size: 15px;
+  line-height: unset !important;
+  width: 300px;
+}/*# sourceMappingURL=styles.css.map */

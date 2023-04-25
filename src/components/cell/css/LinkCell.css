@@ -1,0 +1,7 @@
+.linkCell__container {
+  color: unset;
+}
+
+.linkCell__container:hover {
+  color: #1499ef;
+}

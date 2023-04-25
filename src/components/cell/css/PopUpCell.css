@@ -1,0 +1,8 @@
+.popUpCell__container:hover {
+  text-decoration: underline;
+  color: #1499ef;
+}
+
+.popUpCell__container {
+  cursor: pointer;
+}
